@@ -1,8 +1,6 @@
 import {createContext} from 'react';
 
-
-
-export const Context = createContext({
+export const ModalContext = createContext({
     openModal: () => {},
-    closeModal: () => {}
+    closeModal: () => {},
 });
